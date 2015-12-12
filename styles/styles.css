@@ -1,0 +1,228 @@
+@charset "utf-8";
+/* CSS Document */
+@media (max-width: 767px){
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	background-color: white;
+	background-image: url(../images/back.jpg);
+	background-repeat: repeat-x;
+}
+h1{
+	font-size: 3.5em;
+	text-align: center;
+	font-family: 'Special Elite', cursive;
+	color: white;
+	text-shadow: 2px 2px 5px rgba(0,0,0,1.00);
+}
+#wrapper{
+	height: 100%;
+	width: 90%;
+	margin: 0 auto;
+}
+.item{
+	max-width: 500px;
+	margin: 0 auto 3% auto;
+}
+.item img {
+	box-sizing: border-box;
+	display: block; 
+	max-width: 100%;
+	border: 5px solid white;
+	box-shadow:0 3px 10px #888; 
+}
+}
+@media (min-width: 871px) and (min-height: 601px){
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	background-color: white;
+	background-image: url(../images/back.jpg);
+	background-repeat: repeat-x;
+}
+h1{
+	font-size: 5em;
+	line-height: 2em;
+	text-align: center;
+	font-family: 'Special Elite', cursive;
+	color: white;
+	text-shadow: 2px 2px 5px rgba(0,0,0,1.00);
+}
+#wrapper{
+	width: 80%;
+	height: 100%;
+	margin: 0 auto;
+}
+.position{
+	margin: 0 auto;
+	width: 700px;
+}
+.section{
+	float:left;
+	margin: 20px;
+	width: 300px;
+	-webkit-perspective: 300px;
+	-moz-perspective: 300px;
+	-o-perspective: 300px;
+	-ms-perspective: 300px;
+	perspective: 300px;
+	
+}
+.section img{
+	max-width: 100%;
+	display: block;
+}
+.item{
+	border: 5px solid white;
+	box-shadow:0 3px 10px #888;
+	-webkit-transform: rotateY(30deg);
+	-moz-transform: rotateY(30deg);
+	-o-transform: rotateY(30deg);
+	-ms-transform: rotateY(30deg);
+	transform: rotateY(30deg);
+	-webkit-transition-duration: 0.5s;
+	-moz-transition-duration: 0.5s;
+	-o-transition-duration: 0.5s;
+	-ms-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+}
+.item:hover{ 
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	-o-transform: rotateY(0deg);
+	-ms-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+}
+}
+@media (max-width: 870px) and (min-width: 768px){
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	background-color: white;
+	background-image: url(../images/back.jpg);
+	background-repeat: repeat-x;
+}
+h1{
+	font-size: 5em;
+	line-height: 2em;
+	text-align: center;
+	font-family: 'Special Elite', cursive;
+	color: white;
+	text-shadow: 2px 2px 5px rgba(0,0,0,1.00);
+}
+#wrapper{
+	width: 90%;
+	height: 100%;
+	margin: 0 auto;
+}
+.position{
+	margin: 0 auto;
+	width: 700px;
+}
+.section{
+	float:left;
+	margin: 20px;
+	width: 300px;
+}
+.section img{
+	max-width: 100%;
+	display: block;
+}
+.item{
+	border: 5px solid white;
+	box-shadow:0 3px 10px #888;
+}
+}
+@media (max-height: 600px) and (min-width: 768px){
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	background-color: white;
+	background-image: url(../images/back.jpg);
+	background-repeat: repeat-x;
+}
+h1{
+	font-size: 5em;
+	text-align: center;
+	font-family: 'Special Elite', cursive;
+	color: white;
+	text-shadow: 2px 2px 5px rgba(0,0,0,1.00);
+}
+#wrapper{
+	height: 100%;
+	width: 90%;
+	margin: 0 auto;
+}
+.item img {
+	max-width: 100%;
+}
+}
+@media (max-height: 600px) and (min-width: 870px){
+h1{
+	font-size: 5em;
+	line-height: 2em;
+	text-align: center;
+	font-family: 'Special Elite', cursive;
+	color: white;
+	text-shadow: 2px 2px 5px rgba(0,0,0,1.00);
+}
+.section{
+	float:left;
+	margin: 20px;
+	width: 300px;
+}
+.position{
+	width: 700px;
+	margin: 0 auto;
+}
+.item{
+	border: 5px solid white;
+	box-shadow:0 3px 10px #888;
+}
+.section img{
+	max-width: 100%;
+	display: block;
+}
+}
+@media (max-width: 350px){
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+	background-color: white;
+	background-image: url(../images/back.jpg);
+	background-repeat: repeat-x;
+}
+h1{
+	font-size: 2.5em;
+	text-align: center;
+	font-family: 'Special Elite', cursive;
+	color: white;
+	text-shadow: 2px 2px 5px rgba(0,0,0,1.00);
+}
+#wrapper{
+	height: 100%;
+	width: 90%;
+	margin: 0 auto;
+}
+.item{
+	margin: 0 auto 3% auto;
+}
+.item img {
+	box-sizing: border-box;
+	display: block; 
+	max-width: 100%;
+	border: 5px solid white;
+	box-shadow:0 3px 10px #888; 
+}
+}
+

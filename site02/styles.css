@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+#wrapper{
+	width: 90%;
+	max-width: 920px;
+	margin: 0 auto;
+}
+#main{
+	width: 60%;
+	float: left;
+	margin-right: 5%;
+}
+aside{
+	width: 35%;
+	float: right;
+}
+header h1{
+	height: 98px;
+	width: 210px;
+	float: left;
+	background: url(images/sllogo.png) 0 0 no-repeat;
+	text-indent: -9999px;
+}
+header nav{
+	float: right;
+	margin-top: 40px;
+}
+header nav li{
+	display: inline;
+	margin-left: 15px;
+}
+header nav ul li a{
+	text-decoration: none;
+	color: #333;
+}
+#skipTo{
+	display: none;
+}
+#banner{
+	position: relative;
+	float: left;
+	margin-bottom: 15px;
+	width: 100%;
+}
+#banner img{
+	width: 100%;
+	height: auto;
+}
+#banner a img{
+	position: absolute;
+	width: 50px;
+	top: 0px;
+	left: 0px;
+	padding: 10px;
+	display: block;
+	box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+#banner a img:hover{
+	-webkit-transform: translate(1px,1px);
+	-moz-transform: translate(1px,1px);
+	-o-transform: translate(1px,1px);
+	-ms-transform: translate(1px,1px);
+	transform: translate(1px,1px);
+}
+#banner a img:active{
+	-webkit-transform: translate(1px,1px);
+	-moz-transform: translate(1px,1px);
+	-o-transform: translate(1px,1px);
+	-ms-transform: translate(1px,1px);
+	transform: translate(1px,1px);
+}
+p{
+	text-align:justify;
+}
+
+					/*   mediaqueris  */
+					
+					
+@media (max-width: 505px){
+	#wrapper{
+		box-sizing: border-box;
+		width: 100%;
+		padding: 0;
+	}
+	#skipTo{
+		display: block;
+		width: 100%;
+	}
+	#banner{
+		margin-bottom: 0;
+	}
+	header nav{
+		box-sizing: border-box;
+		width: 100%;
+		margin-top: 2%;
+		margin-bottom: 2%;
+	}
+	header nav li{
+		text-align: center;
+		margin-left: 0;
+		font-weight: bold;
+	}
+	header nav li a{
+		padding: 15px;
+		display: block;
+		background-color: #ccc;
+		margin-bottom: 1%;
+	}
+	#main{
+		width: 100%;
+	}
+	aside{
+		width: 100%;
+	}
+	header h1{
+		width: 100%;
+	}
+	p{
+		padding: 10px;
+		text-align:justify;
+	}
+	section h2, aside h2{
+		padding-left: 10px;
+	}
+}					
+	@media (min-width: 506px) and (max-width: 750px){
+	header nav{
+		float: right;
+		margin-right: 10px;
+	}
+	#wrapper{
+		width: 100%;
+		box-sizing: border-box;
+		padding: 0;
+	}
+	header nav li{
+		margin-left: 10px;
+	}
+	#main{
+		clear: both;
+		float: none;
+		width: 100%;
+	}
+	aside{
+		float: none;
+		width: 100%;
+	}
+	p{
+		padding: 10px;
+		text-align:justify;
+	}
+	section h2, aside h2{
+		padding-left: 10px;
+	}
+	#banner{
+		clear: both;
+	}			
+}
